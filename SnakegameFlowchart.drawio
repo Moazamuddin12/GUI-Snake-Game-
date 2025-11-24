@@ -1,0 +1,201 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.1.1">
+  <diagram name="Page-1" id="3JgqnOBzJFGbIMdZofR1">
+    <mxGraphModel dx="5942" dy="2608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-8" edge="1" parent="1" source="WucRLZiaR2aYnwL9kIz5-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WucRLZiaR2aYnwL9kIz5-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Start" vertex="1">
+          <mxGeometry height="80" width="120" x="340" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-9" edge="1" parent="1" source="WucRLZiaR2aYnwL9kIz5-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WucRLZiaR2aYnwL9kIz5-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Initialize window and audio&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Initialize snake (position, length, direction)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Initialize food at random empty cell&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="260" x="270" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-62" edge="1" parent="1" source="WucRLZiaR2aYnwL9kIz5-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="WucRLZiaR2aYnwL9kIz5-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Load Eat and Wall Sound&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Set score = 0&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Set gameState = PLAYING&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="260" x="270" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-18" edge="1" parent="1" source="WucRLZiaR2aYnwL9kIz5-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="WucRLZiaR2aYnwL9kIz5-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-44" edge="1" parent="1" source="WucRLZiaR2aYnwL9kIz5-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="WucRLZiaR2aYnwL9kIz5-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="674.9999999999995" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-10" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="IF GameState == PLAYING" vertex="1">
+          <mxGeometry height="160" width="200" x="455" y="806" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-19" edge="1" parent="1" source="WucRLZiaR2aYnwL9kIz5-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="WucRLZiaR2aYnwL9kIz5-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;nbsp;READ arrow key input&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; UPDATE snake direction (dx, dy)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="230" x="-20" y="792" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-34" edge="1" parent="1" source="WucRLZiaR2aYnwL9kIz5-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="WucRLZiaR2aYnwL9kIz5-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Move snake&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Shift body forward&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Move head by (dx, dy)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="230" x="-20" y="935" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-23" edge="1" parent="1" source="WucRLZiaR2aYnwL9kIz5-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="WucRLZiaR2aYnwL9kIz5-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-28" edge="1" parent="1" source="WucRLZiaR2aYnwL9kIz5-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="WucRLZiaR2aYnwL9kIz5-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-20" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="IF Snake Head touches Food" vertex="1">
+          <mxGeometry height="180" width="200" x="-12" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-31" edge="1" parent="1" source="WucRLZiaR2aYnwL9kIz5-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="WucRLZiaR2aYnwL9kIz5-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Move snake&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;shift body forward&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Move head by (dx, dy)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="230" x="-330" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="60" x="-72" y="1122" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-32" edge="1" parent="1" source="WucRLZiaR2aYnwL9kIz5-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="WucRLZiaR2aYnwL9kIz5-27" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-48" edge="1" parent="1" source="WucRLZiaR2aYnwL9kIz5-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="WucRLZiaR2aYnwL9kIz5-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-26" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="IF snake hits wall OR its own body" vertex="1">
+          <mxGeometry height="160" width="210" x="240" y="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Play wall sound&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; gameState = GAME_OVER&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="250" x="225" y="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="188" y="1118" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="60" x="354" y="1394" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-51" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="WucRLZiaR2aYnwL9kIz5-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1105" y="1040" />
+              <mxPoint x="1105" y="1700" />
+            </Array>
+            <mxPoint x="1085" y="1040" as="sourcePoint" />
+            <mxPoint x="960" y="1700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-38" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="&amp;nbsp; IF ENTER key pressed" vertex="1">
+          <mxGeometry height="160" width="215" x="870" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-50" edge="1" parent="1" source="WucRLZiaR2aYnwL9kIz5-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="WucRLZiaR2aYnwL9kIz5-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1010" y="1253" />
+              <mxPoint x="1010" y="1700" />
+            </Array>
+            <mxPoint x="950" y="1710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;reset snake&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;reset score&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;spawn new food&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;gameState = PLAYING&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="260" x="670" y="1198" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-42" edge="1" parent="1" source="WucRLZiaR2aYnwL9kIz5-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.49;entryY=-0.052;entryDx=0;entryDy=0;entryPerimeter=0;" target="WucRLZiaR2aYnwL9kIz5-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="60" x="830" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-54" edge="1" parent="1" source="WucRLZiaR2aYnwL9kIz5-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="WucRLZiaR2aYnwL9kIz5-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; DRAW background&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; DRAW snake body&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; DRAW food&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; DRAW score&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="250" x="690" y="1650" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-47" edge="1" parent="1" source="WucRLZiaR2aYnwL9kIz5-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=-0.007;entryY=0.671;entryDx=0;entryDy=0;entryPerimeter=0;" target="WucRLZiaR2aYnwL9kIz5-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="1710" />
+              <mxPoint x="688" y="1710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="440" y="1290" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-56" edge="1" parent="1" source="WucRLZiaR2aYnwL9kIz5-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="WucRLZiaR2aYnwL9kIz5-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-53" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="IF gameState == GAME_OVER" vertex="1">
+          <mxGeometry height="170" width="270" x="680" y="1890" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-67" edge="1" parent="1" source="WucRLZiaR2aYnwL9kIz5-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1310" y="2170" />
+              <mxPoint x="1310" y="530" />
+            </Array>
+            <mxPoint x="440" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-69" connectable="0" parent="WucRLZiaR2aYnwL9kIz5-67" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Text" vertex="1">
+          <mxGeometry relative="1" x="0.7793" y="-22" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-55" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&amp;nbsp; Printf( &quot;GAME OVER&quot; )" vertex="1">
+          <mxGeometry height="140" width="228" x="332" y="2100" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-58" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="60" x="630" y="1930" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-59" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="60" x="400" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="651" y="841" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-63" edge="1" parent="1" source="WucRLZiaR2aYnwL9kIz5-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="WucRLZiaR2aYnwL9kIz5-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-66" edge="1" parent="1" source="WucRLZiaR2aYnwL9kIz5-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="WucRLZiaR2aYnwL9kIz5-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-470" y="635" />
+              <mxPoint x="-470" y="1540" />
+            </Array>
+            <mxPoint x="-380" y="1900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-61" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="IF window is open" vertex="1">
+          <mxGeometry height="150" width="200" x="340" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-64" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="60" x="440" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-71" edge="1" parent="1" source="WucRLZiaR2aYnwL9kIz5-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="WucRLZiaR2aYnwL9kIz5-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-65" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Unload sounds&lt;/div&gt;&lt;div&gt;Close audio and window&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="250" x="-300" y="1480" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-68" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="290" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="WucRLZiaR2aYnwL9kIz5-70" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="End" vertex="1">
+          <mxGeometry height="110" width="160" x="-254" y="1750" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
