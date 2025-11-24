@@ -122,7 +122,7 @@ Return to GAME_PLAYING
 
 ## Author
 
-**Moazamuddin Shaikh**
+**Moazamuddin**
 
 *FAST-NUCES Karachi*
 
